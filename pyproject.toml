@@ -14,8 +14,8 @@ build-backend = "setuptools.build_meta"
 [project]
 # --- Core Metadata ---
 # PyPI에 등록될 고유한 이름입니다. 원하는 이름으로 변경하세요.
-name = "py-init-bootstrap"
-version = "0.1.0"
+name = "qboot"
+version = "0.1.1"
 description = "A simple yet powerful tool to bootstrap a modern Python project."
 readme = "README.md"
 requires-python = ">=3.9"
@@ -32,7 +32,7 @@ license = {file = "LICENSE"}
 
 # --- Classifiers & Keywords for PyPI ---
 # PyPI에서 패키지를 검색하고 필터링하는 데 사용됩니다.
-keywords = ["bootstrap", "scaffolding", "template", "automation", "dev-tools"]
+keywords = ["boot", "init", "scaffolding", "template", "automation", "dev-tools"]
 classifiers = [
     # https://pypi.org/classifiers/
     "Development Status :: 4 - Beta",
@@ -58,10 +58,10 @@ dependencies = []
 # ===================================================================
 [project.scripts]
 # "실행할 명령어 = 패키지.모듈:함수"
-# 'py-bootstrap'는 사용자가 터미널에서 입력할 명령어입니다.
-# 'py_init_bootstrap.cli:main'은 실행될 파이썬 함수 경로입니다.
+# 'qboot'는 사용자가 터미널에서 입력할 명령어입니다.
+# 'qboot.cli:main'은 실행될 파이썬 함수 경로입니다.
 # 'name'과 패키지 디렉터리 이름이 일치해야 합니다 (하이픈 -> 언더스코어).
-py-bootstrap = "py_init_bootstrap.cli:main"
+qboot = "qboot.cli:main"
 
 
 # ===================================================================
@@ -69,8 +69,8 @@ py-bootstrap = "py_init_bootstrap.cli:main"
 # ===================================================================
 [project.urls]
 # GitHub 리포지토리 주소 등으로 수정하세요.
-"Homepage" = "https://github.com/your-username/py-init-bootstrap"
-"Bug Tracker" = "https://github.com/your-username/py-init-bootstrap/issues"
+"Homepage" = "https://github.com/ggred0123/qboot"
+"Bug Tracker" = "https://github.com/ggred0123/qboot/issues"
 
 
 # ===================================================================
